@@ -1,6 +1,6 @@
-
 import requests
-url='http://localhost:8000'
-response= requests.get(url)
-response=response.json()
-print(response['message'])
+
+url = 'https://rcw1003-dikra-hyfme3c7gubmdmet.canadaeast-01.azurewebsites.net/test'
+response = requests.get(url)
+data = response.json()
+print(data['message']) 
